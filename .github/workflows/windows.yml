@@ -17,10 +17,10 @@ jobs:
         arch: [x64]
         build_type: [Release]
         include:
-          - build_type: Release
+          - build_type: RelWithDebInfo
             arch: x64
             release: ON
-          - build_type: Release
+          - build_type: RelWithDebInfo
             arch: x86
             release: ON
 
